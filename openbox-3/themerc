@@ -8,9 +8,9 @@
 
 !! Menu settings
 
-menu.title.bg: flat gradient vertical bevel1
-menu.title.bg.color: #3a3a3a
-menu.title.bg.colorTo: #3a3a3a
+menu.title.bg: flat 
+menu.title.bg.color: #fafafa
+#menu.title.bg.colorTo: #DBDBDB
 menu.title.text.color: #E6E6E6
 menu.title.text.justify: right
 
@@ -30,13 +30,13 @@ menu.bullet.selected.image.color: #FFFFFF
 !! focused window settings
 
 window.active.title.bg: flat gradient vertical bevel1
-window.active.title.bg.color: #DBDBDB
-window.active.title.bg.colorTo: #B5B5B5
-window.active.title.separator.color: #B5B5B5
+window.active.title.bg.color: #fafafa
+window.active.title.bg.colorTo: #DBDBDB
+#window.active.title.separator.color: #fafafa
 
 window.active.handle.bg: flat gradient vertical bevel1
-window.active.handle.bg.color: #cecece
-window.active.handle.bg.colorTo: #cecece
+window.active.handle.bg.color: #FAFAFA
+window.active.handle.bg.colorTo: #DBDBDB
 
 window.active.grip.bg: parentrelative
 
@@ -47,18 +47,18 @@ window.*.button.*.bg: parentrelative
 window.active.button.*.image.color: #101010
 window.active.button.*.hover.image.color: #999999
 window.active.button.*.pressed.image.color: #000000
-window.active.button.disabled.image.color: #cecece
+window.active.button.disabled.image.color: #fafafa
 
 !! unfocused window settings
 
 window.inactive.title.bg: flat gradient vertical bevel1
-window.inactive.title.bg.color: #DBDBDB
-window.inactive.title.bg.colorTo: #B5B5B5
-window.inactive.title.separator.color: #B5B5B5
+window.inactive.title.bg.color: #fafafa
+window.inactive.title.bg.colorTo: #DBDBDB
+#window.inactive.title.separator.color: #fafafa
 
 window.inactive.handle.bg: flat gradient vertical bevel1
-window.inactive.handle.bg.color: #cecece
-window.inactive.handle.bg.colorTo: #cecece
+window.inactive.handle.bg.color: #fafafa
+window.inactive.handle.bg.colorTo: #fafafa
 
 window.inactive.grip.bg: parentrelative
 
@@ -68,10 +68,10 @@ window.inactive.label.text.color: #666666
 window.inactive.button.*.image.color: #666666
 window.inactive.button.*.hover.image.color: #999999
 window.inactive.button.*.pressed.image.color: #000000
-window.inactive.button.disabled.image.color: #cecece
+window.inactive.button.disabled.image.color: #fafafa
 
 !! Global width settings
-border.Width: 1
+border.Width: 0
 padding.width: 1
 window.handle.width: 0
 window.client.padding.width: 0
@@ -83,8 +83,8 @@ menu.border.color: #3C3D3E
 
 !! OSD
 osd.bg: flat gradient vertical bevel1
-osd.bg.color: #cecece
-osd.bg.colorTo: #cecece
+osd.bg.color: #FAFAFA
+osd.bg.colorTo: #FAFAFA
 osd.label.bg: parentrelative
 osd.hilight.bg: flat solid
 osd.hilight.bg.color: #101010
