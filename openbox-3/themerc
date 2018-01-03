@@ -8,9 +8,8 @@
 
 !! Menu settings
 
-menu.title.bg: flat 
-menu.title.bg.color: #fafafa
-#menu.title.bg.colorTo: #DBDBDB
+menu.title.bg: flat solid
+menu.title.bg.color: #3a3a3a
 menu.title.text.color: #E6E6E6
 menu.title.text.justify: right
 
@@ -19,13 +18,10 @@ menu.separator.color: #535353
 menu.items.bg: flat solid
 menu.items.bg.color: #3a3a3a
 menu.items.text.color: #E6E6E6
-menu.items.disabled.text.color: #8A8A8A
 
-menu.items.active.bg: flat gradient vertical bevel1
-menu.items.active.bg.color: #9c9c9c
-menu.items.active.bg.colorTo:#6b6b6b
-menu.items.active.text.color: #FFFFFF
-menu.bullet.selected.image.color: #FFFFFF
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #fafafa
+menu.items.active.text.color: #303030
 
 !! focused window settings
 
@@ -52,8 +48,8 @@ window.active.button.disabled.image.color: #fafafa
 !! unfocused window settings
 
 window.inactive.title.bg: flat gradient vertical bevel1
-window.inactive.title.bg.color: #fafafa
-window.inactive.title.bg.colorTo: #DBDBDB
+window.inactive.title.bg.color: #c6c6c6
+window.inactive.title.bg.colorTo: #cccccc
 #window.inactive.title.separator.color: #fafafa
 
 window.inactive.handle.bg: flat gradient vertical bevel1
